@@ -30,4 +30,5 @@ elif operasi == 3:
 elif operasi == 4:
     print(angka1*angka2)
 elif operasi == 5:
-    print(angka1//2)
+    print(angka1//angka2)
+
