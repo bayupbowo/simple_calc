@@ -16,7 +16,8 @@ print("""Masukkan operasi:
         1 : penjumlahan
         2 : pengurangan
         3 : pembagian
-        4 : perkalian""")
+        4 : perkalian
+        5 : pembagian dengan pembulatan ke bawah""")
 operasi = int(input("Masukkan operasi: ")
 
 # melakukan operasi terhadap angka
@@ -28,3 +29,5 @@ elif operasi == 3:
     print(angka1:angka2)
 elif operasi == 4:
     print(angka1*angka2)
+elif operasi == 5:
+    print(angka1//2)
